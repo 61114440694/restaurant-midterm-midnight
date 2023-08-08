@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.color-orange {
+  background-color: rgb(255, 174, 0);
+  font-family: sarabun;
+}
+
+.font-Mitrs {
+  font-family: 'Mitr';
+}
+
+.font-Itim {
+  font-family: 'Itim';
+}
+
+.Whitespace-normal{
+  white-space: pre-line;
+}
+
+.center{
+  margin: auto;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Sarabun';
+  background-color: rgba(255, 255, 255, 0.475);
+  text-align: left;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://scontent.fnak2-1.fna.fbcdn.net/v/t1.6435-9/124579742_3493811720712489_7612075929483521290_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGScntFKE_Kt4TN-FxCYJ3tWlEmuwFQ2KVaUSa7AVDYpW1s5QOqlQYI7F6-dIIqtbv2Yj7bil4W5vMrA2aZb3j0&_nc_ohc=uvGZKAmNauQAX-If0nw&_nc_ht=scontent.fnak2-1.fna&oh=00_AfAH34W43CzeN6e7dXdHmllpI475raMlNTUPlBUylKSnJw&oe=64F7D83B");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.list-decimal{
+  list-style-type: decimal
+}
